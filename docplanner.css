@@ -1,0 +1,166 @@
+*{
+
+margin: 0;
+padding: 0;
+
+
+}
+
+body{
+
+    background-image: url('background.jpg');
+
+}
+
+
+
+#logo {
+
+width: 300px;
+
+height: 100px;
+ margin-left: 20px;
+
+}
+
+nav {
+
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+
+
+
+}
+
+#navMenu {
+
+
+display: flex;
+width: 100%;
+justify-content: space-between;
+
+
+width:  400px;
+list-style: none;
+margin: 15px;
+
+
+}
+
+
+#navMenu li a {
+
+text-decoration: none;
+color: rgb(72, 96, 141);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+#doc  {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 50px 20px;
+
+
+
+}
+
+#article {
+
+display: flex;
+
+
+
+
+}
+
+#article p {
+
+width: 450px;
+margin-top: 40px;
+}
+
+#doc h2 {
+
+
+margin-top: 50px;
+
+
+}
+
+
+.card {
+
+width: 300px;
+height: 400px;
+padding: 15px;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: space-between;
+
+background-color: cornflowerblue;
+border-radius: 10px;
+
+}
+
+#cards {
+
+display: flex;
+justify-content: space-around;
+
+
+
+}
+
+#card2 {
+
+background-color: crimson;
+
+}
+
+#svg {
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-around;
+
+margin: 30px;
+
+}
+
+#text {
+
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+svg:hover {
+
+
+color:yellow;
+
+}
+
+svg:hover  {
+
+
+fill: cyan;
+
+
+
+
+
+}
